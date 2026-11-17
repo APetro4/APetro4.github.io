@@ -5,14 +5,24 @@ header { background-color: #8C3826;
          color: #D2B48C; 
          font-family: Georgia, "Times New Roman", serif;
          text-align: center; }
-h1 { line-height: 200%;}
+h1 { font-size: 3em; }
 h2 { color: #8C3826; }
+h3 { color: #8C3826; }
+h4 { background-color:#D2B48C;
+      font-size: 1.2em;
+      padding-left: .5em; 
+      padding-bottom: .25em;}
+dt {color:#8C3826;}
 nav { font-weight: bold;
       text-align: center; }
+nav a {text-decoration: none;}
+main{ padding: 2em 2em 2em; }
 footer { background-color: #D2B48C;
          font-size: .60em;
          font-style: italic;
-        text-align: center; }
+         text-align: center; 
+         padding: 1em;
+         border-top: 2px solid #8C3826; }
 #wrapper { width: 80%;
            margin-right: auto;
            background-color: #FEFAEB;
