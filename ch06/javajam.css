@@ -1,16 +1,13 @@
-
 * { box-sizing: border-box; }
-
 body { background-color: #FCEBB6; 
        color: #221811;
        font-family: Tahoma, Arial, sans-serif;
-       background-image: url(hero.jpg);
+       background-image: url(fadedroad50.jpg);
        background-repeat: no-repeat;
        background-size: cover;
        background-attachment: fixed; }
 header { background-color: #D2B48C;
       color: #231814; 
-      text-transform: uppercase;
       background-image: url(coffeelogo.jpg);
       background-repeat: no-repeat;
       padding-top: 5px;
@@ -43,16 +40,17 @@ nav a:visited { color: #D2B48C; }
 nav a:hover { color: #CC9933; }
 nav ul { list-style-type: none;
          padding-left: 0; }
-main{ padding-left: 2em;
+main{ padding-left: 0;
       padding-right: 0;
       padding-top: 0;
+      padding-bottom: 2em;
       background-color: #FEF6C2;
       overflow: auto;
       margin-left: 200px;
       display:block; }
 main, h2, h3, h4, p, div, ul, dl {
-      padding-left: 3em;
-      padding-right: 2em; }
+      padding-left: 0;
+      padding-right: 0; }
 img { padding-left: 10%;
       padding-bottom: 10%; }
 footer { background-color: #D2B48C;
