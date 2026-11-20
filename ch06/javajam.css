@@ -29,6 +29,7 @@ h4 { background-color:#D2B48C;
       padding-bottom: 0;}
 dt {color:#8C3826;}
 nav { font-weight: bold;
+      font-size: 1.5em;
       text-align: center;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -49,8 +50,8 @@ main{ padding-left: 0;
       margin-left: 200px;
       display:block; }
 main, h2, h3, h4, p, div, ul, dl {
-      padding-left: 0;
-      padding-right: 0; }
+      padding-left: 3em;
+      padding-right: 2em; }
 img { padding-left: 10%;
       padding-bottom: 10%; }
 footer { background-color: #D2B48C;
@@ -65,7 +66,9 @@ footer { background-color: #D2B48C;
            padding: 0;
            margin-left:auto;
            margin-right:auto;
-            box-shadow: 5px 5px 5px #1E1E1E; }
+           min-width: 900px;
+           max-width: 1200px;
+            box-shadow: 5px 5px 5px #43382B; }
 .details { padding-left: 20%;
           padding-bottom: 20%;
             overflow: auto; }
