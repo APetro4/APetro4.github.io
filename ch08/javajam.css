@@ -123,9 +123,17 @@ nav li { border-bottom: none; }
 #flow { display: flex;
         flex-direction: row; }
 
-#mobile { display: none; }
+#mobile { display: inline; }
 
-#desktop { display: inline; }
+#desktop { display: none; }
+
+table { margin: auto;
+        width: 90%;
+        border-spacing: 0; }
+
+td, th { padding: 10px; }
+
+tr:nth-of-type(odd) { background-color: #D2B48E; }
 
 .details { display: flex;
            flex-direction: row; }
