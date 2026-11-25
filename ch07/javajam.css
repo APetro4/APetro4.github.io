@@ -137,23 +137,23 @@ h4 { margin-left: 10%;
 
 @media (min-width: 1024px) {
     
-@supports (display: grid) {
+       @supports (display: grid) {
 
-header { grid-area: header;
-         background-image: url(coffeelogo.jpg); }
+       header { grid-area: header;
+              background-image: url(coffeelogo.jpg); }
 
-nav { grid-area: nav; }
+       nav { grid-area: nav; }
 
-main { grid-area: main; }
+       main { grid-area: main; }
 
-footer { grid-area: footer; }
+       footer { grid-area: footer; }
 
-#wrapper { display: grid;
-           grid-template:
-                "header header"
-                "nav main"
-                "footer footer"
-                / 200px; }
+       #wrapper { display: grid;
+              grid-template:
+                     "header header"
+                     "nav main"
+                     "footer footer"
+                     / 200px; }
 
 nav ul { flex-direction: column; }
 
